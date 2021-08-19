@@ -21,6 +21,10 @@ nav ul li {
   padding: 23px;
   font-weight: bolder;
 }
+.active {
+  background-color: black;
+}
+
 nav ul li:hover {
   background-color: black;
 }
@@ -153,4 +157,35 @@ button:hover {
   background-color: #8395a7;
   color: white;
   cursor: pointer;
+}
+
+/* *************************** CSS for Activites.html   **************************************** */
+
+.act-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid blue; */
+  flex-wrap: wrap;
+}
+
+.activity {
+  /* border: 2px solid red; */
+
+  display: flex;
+
+  width: 20rem;
+  flex-wrap: wrap;
+
+  margin: 20px 10px;
+}
+.activity img {
+  height: 14rem;
+  width: 20rem;
+}
+
+.text-center {
+  text-align: center;
+  margin: 15px;
 }
