@@ -1,18 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,300&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
+  font-family: "Roboto", sans-serif;
 }
 nav ul {
   display: flex;
   border: 2px solid black;
-
+  flex-wrap: wrap;
   justify-content: center;
   list-style: none;
   background-color: #405060;
@@ -69,7 +68,7 @@ nav ul li a {
   border: none;
   color: white;
   border-radius: 50px;
-  margin-top: 10px;
+  margin-top: 30px;
   background-color: #405060;
   padding: 15px 40px;
   font-family: "Roboto", sans-serif;
@@ -89,17 +88,14 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-.about-dest p {
-  padding: 0px 100px;
+p {
+  /* justify-content: center; */
 
-  font-size: larger;
   text-align: center;
-}
-.about-dest h2 {
-  margin-top: 100px;
 
-  padding-bottom: 25px;
+  padding: 30px;
 }
 
 /* about ends here */
@@ -107,15 +103,23 @@ button:hover {
 footer {
   display: flex;
   background-color: #405060;
-
-  height: 200px;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  height: fit-content;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-box {
-  height: 200px;
+  /* height: 200px; */
+  margin: 2px;
+
+  display: flex;
+  flex-wrap: wrap;
   border: 2px solid red;
-  width: 50%;
   color: white;
   align-items: center;
+  justify-content: center;
+  /* align-items: center; */
   padding: 30px;
 }
