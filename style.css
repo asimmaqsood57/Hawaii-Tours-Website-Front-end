@@ -79,3 +79,43 @@ button:hover {
 
   cursor: pointer;
 }
+
+/* hero image ends */
+
+.about-dest {
+  font-family: "Roboto", sans-serif;
+  height: 300px;
+  border: 2px solid pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-dest p {
+  padding: 0px 100px;
+
+  font-size: larger;
+  text-align: center;
+}
+.about-dest h2 {
+  margin-top: 100px;
+
+  padding-bottom: 25px;
+}
+
+/* about ends here */
+
+footer {
+  display: flex;
+  background-color: #405060;
+
+  height: 200px;
+}
+
+.footer-box {
+  height: 200px;
+  border: 2px solid red;
+  width: 50%;
+  color: white;
+  align-items: center;
+  padding: 30px;
+}
